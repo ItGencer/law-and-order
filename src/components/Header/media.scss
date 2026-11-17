@@ -1,0 +1,23 @@
+@media (min-width: 1200px) {
+  .header .header__menu {
+    display: none;
+  }
+
+  .header .header__menu-overlay {
+    display: none;
+  }
+
+  .header .header__menu-nav.header__menu-nav--desktop {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header .header__menu-nav.header__menu-nav--desktop .menu__item {
+    padding: 8px;
+    color: var(--color-text);
+    font-size: 1rem;
+  }
+}
