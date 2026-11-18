@@ -1,5 +1,6 @@
-import { useState } from 'react';
 import './ContactForm.scss';
+import { useState } from 'react';
+import Labels from '../../Label/Label.jsx';
 
 function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -13,8 +14,8 @@ function ContactForm() {
   return (
     <section className="contact" id="contact" aria-labelledby="contact-title">
       <div className="contact__container">
-        <div className="contact__intro">
-          <p className="contact__label">Зв'язок із адвокатами</p>
+        <div>
+          <Labels label="Зв'язок із адвокатами" />
           <h2 className="contact__title" id="contact-title">
             Зворотний зв'язок
           </h2>

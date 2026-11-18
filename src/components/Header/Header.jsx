@@ -59,7 +59,10 @@ function Header() {
             >
               &times;
             </button>
-            <Menu className="header__menu-nav" />
+            <Menu
+              className="header__menu-nav"
+              onNavigate={() => setIsMenuOpen(false)}
+            />
           </dialog>
         </div>
       )}

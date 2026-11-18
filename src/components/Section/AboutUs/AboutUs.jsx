@@ -2,6 +2,7 @@ import './about.scss';
 
 import teamPhoto from '../../../assets/images/team.jpg';
 import { areas } from '../../../data/areas.js';
+import Labels from '../../Label/Label.jsx';
 
 const steps = [
   {
@@ -35,12 +36,12 @@ function AboutUs() {
           />
         </figure>
 
-        <div className="about__intro">
-          <p className="about__label">Про нас</p>
+        <div>
+          <Labels label="Про нас" />
           <h2 className="about__title" id="about-title">
             Миритимемо, де можна. Переможемо, де потрібно.
           </h2>
-          <p className="about__text">
+          <p>
             Ми — спілка адвокатів, яка працює вже понад 5 років. Наша команда
             спершу шукає мирне рішення, щоб заощадити Ваш час і нерви. Якщо
             справа доходить до суду, ми працюємо наполегливо і впевнено, бо
@@ -48,7 +49,7 @@ function AboutUs() {
           </p>
         </div>
 
-        <div className="about__steps-section">
+        <div>
           <h3 className="about__subheading">Два кроки до рішення</h3>
           <ul className="about__steps">
             {steps.map((step) => (
@@ -72,7 +73,7 @@ function AboutUs() {
           ))}
         </ul>
 
-        <div className="about__areas-section">
+        <div>
           <h3 className="about__subheading">Напрями роботи</h3>
           <ul className="about__areas">
             {areas.map((area) => (

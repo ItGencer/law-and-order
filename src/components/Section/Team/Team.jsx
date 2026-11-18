@@ -1,13 +1,12 @@
-import { team } from '../../../data/team.js';
 import './Team.scss';
+import { team } from '../../../data/team.js';
+import Labels from '../../Label/Label.jsx';
 
 function Team() {
   return (
     <section className="team" id="team" aria-labelledby="team-title">
       <div className="team__container">
-        <h2 className="team__title" id="team-title">
-          Наша команда
-        </h2>
+        <Labels label="Наша команда" id="team-title" />
         <div className="team__grid">
           {team.map((leader) => (
             <article className="team__card" key={leader.name}>

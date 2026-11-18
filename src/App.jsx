@@ -13,6 +13,8 @@ import Services from './components/Section/Services/Services.jsx';
 import Team from './components/Section/Team/Team.jsx';
 // eslint-disable-next-line no-unused-vars
 import ContactForm from './components/Section/ContactForm/ContactForm.jsx';
+// eslint-disable-next-line no-unused-vars
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   return (
@@ -25,8 +27,7 @@ function App() {
         <Team />
         <ContactForm />
       </main>
-      <footer>
-      </footer>
+      <Footer />
     </>
   );
 }

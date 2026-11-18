@@ -7,3 +7,15 @@
 body {
   background-color: var(--color-bg);
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  padding-top: 64px;
+}
+
+[id] {
+  scroll-margin-top: 64px;
+}
