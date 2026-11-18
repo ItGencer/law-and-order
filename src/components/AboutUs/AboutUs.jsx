@@ -1,6 +1,7 @@
 import './about.scss';
 
 import teamPhoto from '../../assets/images/team.jpg';
+import { areas } from '../../data/areas.js';
 
 const steps = [
   {
@@ -20,25 +21,6 @@ const stats = [
   { number: '4', label: 'адвокати' },
   { number: '5+', label: 'років досвіду' },
   { number: '100+', label: 'вирішених справ' }, // TODO: уточнити реальну кількість справ
-];
-
-const areas = [
-  {
-    name: 'Кримінальне право',
-    icon: 'M12 3 4 6v5c0 5.2 3.4 8.7 8 10 4.6-1.3 8-4.8 8-10V6l-8-3Zm-3 9 2 2 4-4',
-  },
-  {
-    name: 'Цивільне право',
-    icon: 'M5 4h14v16H5zM8 8h8M8 12h8M8 16h5',
-  },
-  {
-    name: 'Сімейні справи',
-    icon: 'M12 20s-8-4.5-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 10c0 5.5-8 10-8 10Z',
-  },
-  {
-    name: 'Майнові спори',
-    icon: 'M3 10 12 4l9 6M5 10v9m4-9v9m6-9v9m4-9v9M3 20h18',
-  },
 ];
 
 function AboutUs() {
