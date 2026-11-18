@@ -4,11 +4,15 @@ import './App.scss';
 // eslint-disable-next-line no-unused-vars
 import Header from './components/Header/Header.jsx';
 // eslint-disable-next-line no-unused-vars
-import Intro from './components/Intro/Intro.jsx';
+import Intro from './components/Section/Intro/Intro.jsx';
 // eslint-disable-next-line no-unused-vars
-import AboutUs from './components/AboutUs/AboutUs.jsx';
+import AboutUs from './components/Section/AboutUs/AboutUs.jsx';
 // eslint-disable-next-line no-unused-vars
-import Services from './components/Services/Services.jsx';
+import Services from './components/Section/Services/Services.jsx';
+// eslint-disable-next-line no-unused-vars
+import Team from './components/Section/Team/Team.jsx';
+// eslint-disable-next-line no-unused-vars
+import ContactForm from './components/Section/ContactForm/ContactForm.jsx';
 
 function App() {
   return (
@@ -18,6 +22,8 @@ function App() {
         <Intro />
         <AboutUs />
         <Services />
+        <Team />
+        <ContactForm />
       </main>
       <footer>
       </footer>

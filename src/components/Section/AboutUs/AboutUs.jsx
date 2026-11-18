@@ -1,7 +1,7 @@
 import './about.scss';
 
-import teamPhoto from '../../assets/images/team.jpg';
-import { areas } from '../../data/areas.js';
+import teamPhoto from '../../../assets/images/team.jpg';
+import { areas } from '../../../data/areas.js';
 
 const steps = [
   {
@@ -25,7 +25,7 @@ const stats = [
 
 function AboutUs() {
   return (
-    <section className="about" aria-labelledby="about-title">
+    <section className="about" id="about" aria-labelledby="about-title">
       <div className="about__container">
         <figure className="about__photo">
           <img

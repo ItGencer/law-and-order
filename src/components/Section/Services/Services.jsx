@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
-import { areas } from '../../data/areas.js';
+import { areas } from '../../../data/areas.js';
 // eslint-disable-next-line no-unused-vars
-import ServicesCard from '../ServicesCard/ServicesCard.jsx';
+import ServicesCard from '../../ServicesCard/ServicesCard.jsx';
 import './Services.scss';
 
 function Services() {
