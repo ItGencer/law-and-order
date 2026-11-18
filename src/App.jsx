@@ -5,6 +5,8 @@ import './App.scss';
 import Header from './components/Header/Header.jsx';
 // eslint-disable-next-line no-unused-vars
 import Intro from './components/Intro/Intro.jsx';
+// eslint-disable-next-line no-unused-vars
+import AboutUs from './components/AboutUs/AboutUs.jsx';
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
       <Header />
       <main>
         <Intro />
+        <AboutUs />
       </main>
       <footer>
       </footer>
